@@ -26,3 +26,6 @@ targz:
 	gzip calcula.tar
 	rm -rf calcula.tar
 	rm -rf source
+
+install: dist
+	cp -r ../dist/* /
